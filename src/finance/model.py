@@ -68,4 +68,4 @@ class Cval(Valuta):
         return super().__repr__() + f", {self.__tnev}"
 
     def __str__(self) -> str:
-        return super().__str__() + f", @{self.__tnev}" 
+        return super().__str__() + f", @{self.__tnev}"
